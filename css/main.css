@@ -111,6 +111,18 @@ pre {
     top: 8px;
     right: 8px; }
 
+#homepage_title_button:link, #homepage_title_button:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 13px; }
+
+#homepage_title_button:hover, #homepage_title_button:active {
+  background-color: #61bdde;
+  color: #2a6395;
+  text-decoration: underline; }
+
 /**
  * Syntax highlighting styles
  */

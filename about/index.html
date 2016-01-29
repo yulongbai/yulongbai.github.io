@@ -1,173 +1,287 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-<head>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Write your site description here. It will be used as your sites meta description as well!">
+  <title>About</title>
+  <meta name="description" content="Personal pages powered by Jekyll.
+">
 
-    <title>About - Clean Blog</title>
+  <link rel="canonical" href="http://127.0.0.1:4000/about/">
+  <link rel="alternate" type="application/rss+xml" title="Code Gurus" href="http://127.0.0.1:4000/feed.xml" />
+  <!-- Material Design Lite -->
+  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+  <!-- Material Design Lite css Library -->
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.blue_grey-light_blue.min.css" /> 
+  <!-- Material Design Fonts -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    <link rel="canonical" href="http://yourdomain.com/startbootstrap-clean-blog-jekyll/about/">
-
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="/startbootstrap-clean-blog-jekyll/css/bootstrap.min.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/startbootstrap-clean-blog-jekyll/css/clean-blog.css">
-
-    <!-- Pygments Github CSS -->
-    <link rel="stylesheet" href="/startbootstrap-clean-blog-jekyll/css/syntax.css">
-
-    <!-- Custom Fonts -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!-- Custom theme css -->
+  <link rel="stylesheet" href="/css/main.css">
+ 
 
 </head>
 
 
-<body>
+  <body>
 
-    <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/startbootstrap-clean-blog-jekyll/">Clean Blog</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="/startbootstrap-clean-blog-jekyll/">Home</a>
-                </li>
-                
-                <li>
-                    <a href="/startbootstrap-clean-blog-jekyll/about/">About</a>
-                </li>
-                
-                <li>
-                    <a href="/startbootstrap-clean-blog-jekyll/contact/">Contact</a>
-                </li>
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
-
-
-    <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/startbootstrap-clean-blog-jekyll/img/about-bg.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>About</h1>
-                    <hr class="small">
-                    <span class="subheading">This is what I do.</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestiae debitis nobis, quod sapiente qui voluptatum, placeat magni repudiandae accusantium fugit quas labore non rerum possimus, corrupti enim modi! Et.</p>
-
-		</div>
-	</div>
+    <!-- Start Layout -->
+    
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- search layout -->
+<div class="super-search" id="js-search">
+  <ul class="super-search__results" id="js-search__results"></ul>        
+  <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored super-search__close-btn" onclick="superSearch.toggle()">
+    <i class="material-icons">close</i>
+  </button>
 </div>
+<!-- /end search -->
+        <header class="mdl-layout__header">
 
-<hr>
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <a id="homepage_title_button" href="/" class="mdl-layout-title">
+          <span>Code Gurus</span>
+      </a>
+          <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
 
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable is-upgraded">
+        <label class="mdl-button mdl-js-button mdl-button--icon" for="js-search__input">
+          <i class="material-icons">search</i>
+        </label>
 
-    <!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    <li>
-                        <a href="/startbootstrap-clean-blog-jekyll/feed.xml">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    <li>
-                        <a href="https://twitter.com/SBootstrap">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li>
-                        <a href="https://www.facebook.com/IronSummitMedia">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li>
-                        <a href="https://github.com/davidtmiller">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                </ul>
-                <p class="copyright text-muted">Copyright &copy; Clean Blog 2016</p>
-            </div>
+        <div class="mdl-textfield__expandable-holder" >
+          <input class="mdl-textfield__input super-search__input" type="text" id="js-search__input" />
         </div>
+      </div>
+
+<!--
+      <button class="mdl-button mdl-js-button mdl-button--icon" id="menu-lower-left">
+        <i class="material-icons">more_vert</i>
+      </button>
+
+      <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="menu-lower-left">
+        
+        <li><a href="www.myawesomelink.com" class="mdl-menu__item">Cool Option 1</a></li>
+        
+        <li><a href="www.myawesomelink.com" class="mdl-menu__item">Cool Option 2</a></li>
+        
+        <li><a href="www.myawesomelink.com" class="mdl-menu__item">Cool Option 3</a></li>
+        
+      </ul>
+-->
     </div>
+  </header>
+
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Menu</span>
+    <nav class="mdl-navigation">
+    
+      
+      <a class="mdl-navigation__link" href="/about/">About</a>
+      
+    
+      
+    
+      
+    
+      
+    
+    </nav>
+
+  </div>
+
+
+    
+
+    <div class="post-ribbon"></div>
+<main class="post-main mdl-layout__content">
+  <div class="post-container mdl-grid">
+    <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+    <div class="post-section mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+      <div class="mdl-color-text--grey-500">
+      
+      </div>
+      <h3>About</h3>
+      <div class="addthis_sharing_toolbox"></div>
+      <article class="post-content">
+        <p><h6 id="a-jekyll-theme-based-in-google-material-design-lite-library">A Jekyll theme based in Google Material Design Lite library.</h6>
+
+<p>This is the base Jekyll Material Design Lite theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
+
+<p>You can find the source code for the Jekyll MDL theme at: <a href="https://github.com/gdg-managua/jekyll-mdl">github.com/gdg-managua/jekyll-mdl</a></p>
+
+<p>You can find the source code for Jekyll at <a href="https://github.com/jekyll/jekyll">github.com/jekyll/jekyll</a></p>
+
+<h6 id="sites-using-jekyll-mdl">Sites using jekyll-mdl</h6>
+
+<p>If you are using this cool jekyll theme, please open an issue or fork the project, add your site to the list and send a pull request, we will be happy to know where the theme are using.</p>
+
+<p><a href="http://fandekasp.github.io/">fandekasp.github.io</a></p>
+
+<h6 id="custom-themes">Custom Themes</h6>
+
+<p>If you don’t want the default site colors, you can create custom themes for the site in the <a href="http://www.getmdl.io/customize/index.html">mdl theme creator</a>. The site will create a custom css, something like this:</p>
+
+<pre><code> &lt;link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.teal-green.min.css" /&gt;
+</code></pre>
+
+<p>Now add this in the _includes/head.html file, under the main css and enjoy your new theme.</p>
+
+<h6 id="post-options">Post Options</h6>
+
+<p>All the post, require an image and maybe an author, the image are used in the cards and the autor used for the footer in the cards. For use the images and author, just add a new key in the post config, something like this:</p>
+
+<pre><code>---
+layout: post
+title:  "Welcome to jekyll-mdl"
+date:   2015-07-11 11:34:20
+categories: jekyll
+image: http://www.wchs4pets.org/wp-content/uploads/2015/03/cat_1-jpg.jpg
+author: Google Developers Group Managua
+---
+</code></pre>
+
+<h6 id="layout-configuration">Layout Configuration</h6>
+<p>You can setup 4 types of layout</p>
+
+<pre><code>- Fixed Nav + Simple Card Grid
+- Fixed Nav + Highlight Post + Card Grid
+- Drawer Nav + Simple Card Grid
+- Drawer Nav + Highlight Post + Card Grid
+</code></pre>
+
+<p>For use this in the <a href="https://github.com/gdg-managua/jekyll-mdl/blob/master/_config.yml">_config.yml</a> select the type of layout, rebuild the website and voilà :smile:</p>
+
+<h6 id="contributing">Contributing</h6>
+<p>If you want to contribute to this project, please read the <a href="https://github.com/gdg-managua/jekyll-mdl/blob/master/CONTRIBUTING.md">CONTRIBUTING</a> file and perform the following steps</p>
+
+<pre><code># Fork this repository
+# Clone your fork
+jekyll serve --watch
+
+git checkout -b feature_branch
+# Implement your feature and tests
+git add . &amp;&amp; git commit
+git push -u origin feature_branch
+# Send a pull request for your feature branch
+</code></pre>
+
+<h6 id="license">License</h6>
+<p>Licensed under the Apache 2.0 license.</p>
+
+<p>See the <a href="https://github.com/gdg-managua/jekyll-mdl/blob/master/LICENSE.md">LICENSE</a> file for more details.</p>
+
+<p>Copyright © 2015 <a href="http://www.gdgmanagua.org">Google Developers Group Managua</a>.</p>
+</p>
+      </article>
+            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+      <div class="addthis_sharing_toolbox"></div>
+      
+      <div>
+        <h3>Comments</h3>
+          <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'codegurus';
+        var disqus_developer = 0; // developer mode is on
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+      </div>
+      
+    </div>
+  </div>
+</main>
+
+
+    <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer--middle-section">
+
+    <div class="mdl-mega-footer--drop-down-section">
+      <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer--heading">INFO</h1>
+      <ul class="mdl-mega-footer--link-list">
+        <li><a href="mailto:yulongb@stud.ntnu.no">yulongb@stud.ntnu.no</a></li>
+        <li><a href="/feed.xml">subscribe via RSS</a></li>
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer--drop-down-section">
+      <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer--heading">SOCIAL</h1>
+      <ul class="mdl-mega-footer--link-list">
+        
+        <li>
+          <a href="https://github.com/yulongbai">
+            <span class="icon  icon--github">
+              <svg viewBox="0 0 16 16">
+                <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+              </svg>
+            </span>
+
+            <span class="username">yulongbai</span>
+          </a>
+        </li>
+        
+        
+	  
+      
+	  
+	  
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer--drop-down-section">
+      <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer--heading">ABOUT</h1>
+      <ul class="mdl-mega-footer--link-list">
+        <li>Personal pages powered by Jekyll.
+</li>
+      </ul>
+    </div>
+
+
+  </div>
+
+  <div class="mdl-mega-footer--bottom-section">
+    <div class="mdl-logo">Code Gurus</div>
+    <ul class="mdl-mega-footer--link-list">
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Privacy & Terms</a></li>
+    </ul>
+  </div>
+
 </footer>
 
-<!-- jQuery -->
-<script src="/startbootstrap-clean-blog-jekyll/js/jquery.min.js "></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="/startbootstrap-clean-blog-jekyll/js/bootstrap.min.js "></script>
+    </div>
+    <!-- /End Layout -->
 
-<!-- Custom Theme JavaScript -->
-<script src="/startbootstrap-clean-blog-jekyll/js/clean-blog.min.js "></script>
+    
+    <script rel="javascript" type="text/javascript" src="/js/search.js"></script>
+    <script rel="javascript" type="text/javascript">
+      superSearch({
+        searchFile: '/feed.xml',
+        searchSelector: '#js-search', // CSS Selector for search container element.
+        inputSelector: '#js-search__input', // CSS selector for <input>
+        resultsSelector: '#js-search__results' // CSS selector for results container
+      });
+    </script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56ab81144bfe4a6a" async="async"></script>
 
-
-</body>
+  </body>
 
 </html>
