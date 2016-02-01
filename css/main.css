@@ -287,6 +287,69 @@ pre {
     width: 100%;
     height: auto; }
 
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden; }
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0; }
+
+.PageNavigation .next {
+  text-align: right; }
+
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden; }
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0; }
+
+.PageNavigation .next {
+  text-align: right; }
+
+.mdlwp-nav {
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #757575;
+  font-weight: 500; }
+
+.mdlwp-nav > .mdlwp-nav__button {
+  color: #757575;
+  text-decoration: none; }
+
+.mdlwp-nav .mdl-button {
+  color: rgba(0, 0, 0, 0.54);
+  background-color: #fff; }
+
+.mdlwp-nav > .mdlwp-nav__button:last-child .mdl-button {
+  margin-left: 16px; }
+
 /* super-search
 Author: Kushagra Gour (http://kushagragour.in)
 MIT Licensed
