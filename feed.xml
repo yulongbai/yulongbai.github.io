@@ -6,8 +6,8 @@
 </description>
     <link>http://yulongbai.github.io/</link>
     <atom:link href="http://yulongbai.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 Jan 2016 16:57:38 +0100</pubDate>
-    <lastBuildDate>Fri, 29 Jan 2016 16:57:38 +0100</lastBuildDate>
+    <pubDate>Mon, 01 Feb 2016 21:33:13 +0100</pubDate>
+    <lastBuildDate>Mon, 01 Feb 2016 21:33:13 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -38,11 +38,17 @@
 
 </description>
         <pubDate>Sun, 11 Oct 2015 06:34:20 +0200</pubDate>
-        <link>http://yulongbai.github.io/gdg/2015/10/11/google-developers-group.html</link>
-        <guid isPermaLink="true">http://yulongbai.github.io/gdg/2015/10/11/google-developers-group.html</guid>
+        <link>http://yulongbai.github.io/gdg/hello/world/lalala/2015/10/11/google-developers-group.html</link>
+        <guid isPermaLink="true">http://yulongbai.github.io/gdg/hello/world/lalala/2015/10/11/google-developers-group.html</guid>
         
         
         <category>gdg</category>
+        
+        <category>hello</category>
+        
+        <category>world</category>
+        
+        <category>lalala</category>
         
       </item>
     
