@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
+  <title>Code Gurus</title>
   <meta name="description" content="Personal pages powered by Jekyll.
 ">
 
-  <link rel="canonical" href="http://yulongbai.github.io/about/">
+  <link rel="canonical" href="http://yulongbai.github.io/search.html">
   <link rel="alternate" type="application/rss+xml" title="Code Gurus" href="http://yulongbai.github.io/feed.xml" />
 
   <!-- Material Design Lite css Library -->
@@ -109,110 +109,12 @@
 
     
 
-    <div class="post-ribbon"></div>
-<main class="post-main mdl-layout__content">
-  <div class="post-container mdl-grid">
-    <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-    <div class="post-section mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
-      <div class="mdl-color-text--grey-500">
-      
-      </div>
-      <h3>About</h3>
-        hello world
-      <article class="post-content">
-        <p><h6 id="a-jekyll-theme-based-in-google-material-design-lite-library">A Jekyll theme based in Google Material Design Lite library.</h6>
+    <form action="get" id="site_search">
+  <label for="search_box">Search</label><input type="text" id="search_box">
+  <input type="submit" value="search">
+</form>
 
-<p>This is the base Jekyll Material Design Lite theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
-
-<p>You can find the source code for the Jekyll MDL theme at: <a href="https://github.com/gdg-managua/jekyll-mdl">github.com/gdg-managua/jekyll-mdl</a></p>
-
-<p>You can find the source code for Jekyll at <a href="https://github.com/jekyll/jekyll">github.com/jekyll/jekyll</a></p>
-
-<h6 id="sites-using-jekyll-mdl">Sites using jekyll-mdl</h6>
-
-<p>If you are using this cool jekyll theme, please open an issue or fork the project, add your site to the list and send a pull request, we will be happy to know where the theme are using.</p>
-
-<p><a href="http://fandekasp.github.io/">fandekasp.github.io</a></p>
-
-<h6 id="custom-themes">Custom Themes</h6>
-
-<p>If you don’t want the default site colors, you can create custom themes for the site in the <a href="http://www.getmdl.io/customize/index.html">mdl theme creator</a>. The site will create a custom css, something like this:</p>
-
-<pre><code> &lt;link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.teal-green.min.css" /&gt;
-</code></pre>
-
-<p>Now add this in the _includes/head.html file, under the main css and enjoy your new theme.</p>
-
-<h6 id="post-options">Post Options</h6>
-
-<p>All the post, require an image and maybe an author, the image are used in the cards and the autor used for the footer in the cards. For use the images and author, just add a new key in the post config, something like this:</p>
-
-<pre><code>---
-layout: post
-title:  "Welcome to jekyll-mdl"
-date:   2015-07-11 11:34:20
-categories: jekyll
-image: http://www.wchs4pets.org/wp-content/uploads/2015/03/cat_1-jpg.jpg
-author: Google Developers Group Managua
----
-</code></pre>
-
-<h6 id="layout-configuration">Layout Configuration</h6>
-<p>You can setup 4 types of layout</p>
-
-<pre><code>- Fixed Nav + Simple Card Grid
-- Fixed Nav + Highlight Post + Card Grid
-- Drawer Nav + Simple Card Grid
-- Drawer Nav + Highlight Post + Card Grid
-</code></pre>
-
-<p>For use this in the <a href="https://github.com/gdg-managua/jekyll-mdl/blob/master/_config.yml">_config.yml</a> select the type of layout, rebuild the website and voilà :smile:</p>
-
-<h6 id="contributing">Contributing</h6>
-<p>If you want to contribute to this project, please read the <a href="https://github.com/gdg-managua/jekyll-mdl/blob/master/CONTRIBUTING.md">CONTRIBUTING</a> file and perform the following steps</p>
-
-<pre><code># Fork this repository
-# Clone your fork
-jekyll serve --watch
-
-git checkout -b feature_branch
-# Implement your feature and tests
-git add . &amp;&amp; git commit
-git push -u origin feature_branch
-# Send a pull request for your feature branch
-</code></pre>
-
-<h6 id="license">License</h6>
-<p>Licensed under the Apache 2.0 license.</p>
-
-<p>See the <a href="https://github.com/gdg-managua/jekyll-mdl/blob/master/LICENSE.md">LICENSE</a> file for more details.</p>
-
-<p>Copyright © 2015 <a href="http://www.gdgmanagua.org">Google Developers Group Managua</a>.</p>
-</p>
-      </article>
-
-      
-      <div>
-        <h3>Comments</h3>
-          <section class="disqus">
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        var disqus_shortname = 'codegurus';
-        var disqus_developer = 0; // developer mode is on
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-</section>
-
-      </div>
-      
-    </div>
-  </div>
-</main>
-
+<ul id="search_results"></ul>
 
     <footer class="mdl-mega-footer">
   <div class="mdl-mega-footer--middle-section">

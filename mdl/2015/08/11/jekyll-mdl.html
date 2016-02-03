@@ -31,12 +31,13 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <!-- search layout -->
 <div class="super-search" id="js-search">
-  <ul class="super-search__results" id="js-search__results"></ul>        
+  <ul class="super-search__results" id="js-search__results"></ul>
   <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored super-search__close-btn" onclick="superSearch.toggle()">
     <i class="material-icons">close</i>
   </button>
 </div>
 <!-- /end search -->
+
         <header class="mdl-layout__header">
 
     <div class="mdl-layout__header-row">
@@ -44,18 +45,26 @@
       <a id="homepage_title_button" href="/" class="mdl-layout-title">
           <span>Code Gurus</span>
       </a>
-          <!-- Add spacer, to align navigation to the right -->
+      <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
 
-      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable is-upgraded">
-        <label class="mdl-button mdl-js-button mdl-button--icon" for="js-search__input">
-          <i class="material-icons">search</i>
-        </label>
+      <!-- <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable is-upgraded">
+  <label class="mdl-button mdl-js-button mdl-button--icon" for="site_search">
+    <i class="material-icons">search</i>
+  </label>
 
-        <div class="mdl-textfield__expandable-holder" >
-          <input class="mdl-textfield__input super-search__input" type="text" id="js-search__input" />
-        </div>
-      </div>
+  <div class="mdl-textfield__expandable-holder" >
+    <input class="mdl-textfield__input super-search__input" type="text" id="site_search" />
+  </div>
+</div> -->
+
+<form action="get" id="site_search">
+  <label for="search_box">Search</label><input type="text" id="search_box">
+  <input type="submit" value="search">
+</form>
+
+<ul id="search_results"></ul>
+
 
 <!--
       <button class="mdl-button mdl-js-button mdl-button--icon" id="menu-lower-left">
@@ -96,7 +105,6 @@
     </nav>
 
   </div>
-
 
     
 
@@ -245,19 +253,13 @@
     <!-- /End Layout -->
 
     
-    <script rel="javascript" type="text/javascript" src="/js/search.js"></script>
-    <script rel="javascript" type="text/javascript">
-      superSearch({
-        searchFile: '/feed.xml',
-        searchSelector: '#js-search', // CSS Selector for search container element.
-        inputSelector: '#js-search__input', // CSS selector for <input>
-        resultsSelector: '#js-search__results' // CSS selector for results container
-      });
-    </script>
+
+    <script src="/js/lunr.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/js/search.js"></script>
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56ab81144bfe4a6a" async="async"></script>
-      <!-- Material Design Lite -->
-      <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+    <!-- Material Design Lite -->
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
   </body>
-
 </html>
